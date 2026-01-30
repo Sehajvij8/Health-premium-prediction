@@ -4,10 +4,10 @@ from joblib import load
 
 # ================= LOAD MODELS & SCALERS =================
 
-model_young = load("artifacts/model_young.joblib")
-model_rest = load("artifacts/model_rest.joblib")
-scaler_young = load("artifacts/scaler_young.joblib")
-scaler_rest = load("artifacts/scaler_rest.joblib")
+model_young = load("artifacts\model_young.joblib")
+model_rest = load("artifacts\model_rest.joblib")
+scaler_young = load("artifacts\scaler_young.joblib")
+scaler_rest = load("artifacts\scaler_rest.joblib")
 
 
 # ================= MEDICAL RISK =================
